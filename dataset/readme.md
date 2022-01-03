@@ -1,5 +1,9 @@
 ## Dataset:
 
+**The dataset is too large to upload, thus the original fields of observables are not shown here.**
+
+The dataset is arranged:  $N_t\times N_x\times \N_y $
+
 ### Cylinder wake
 
 #### (1) Governing equation: 

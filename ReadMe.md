@@ -1,0 +1,1 @@
+A neural network method for mode decomposition.

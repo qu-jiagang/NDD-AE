@@ -155,7 +155,11 @@ train_loader = DataLoader(
 
 
 _loss, loss_base, epoch = 1.0,0.003, -1
-while epoch < 3000:
+while epoch < 4000:
+
+    if epoch > 2000:
+        optimizer = optim.SGD(net.parameters(), lr=0.5, momentum=0.99)
+        
     _BCE, _KLD = 0, 0
     _loss,_loss1,_loss2 = 0,0,0
     epoch += 1
